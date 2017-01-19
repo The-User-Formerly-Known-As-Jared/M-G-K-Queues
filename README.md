@@ -1,5 +1,4 @@
 # M-G-K-Queues
-M-G-k Simulation under different paradigms.
 
 An M/G/k queue is a servicing structure in which inputs arrive by a Poisson process (M) - that is with an exponentially distributed interarrival time. Service time is a random variable from some general distribution (G) and there are only k service channels. Thus, k inputs can be serviced at once, if all k service channels are full, arrivals begin to fill up an infinite waiting room.
 
