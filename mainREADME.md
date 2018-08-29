@@ -8,5 +8,5 @@ For simulation, a specific distribution must be chosen for G. It can be input as
 
 Other parameters can be tinkered with, the mean of the arrivals - alpha, the mean of the service time - tau, the variance  of the service time - sigma.
 
-The algorithm used is a modified version of the Gillespie algorithm [https://en.wikipedia.org/wiki/Gillespie_algorithm]. This is why if there is a reaction time in stack before a generated arrival time, that arrival time gets thrown out and time step is advanced to the next reaction time. A new arrival time will be generated after, and as shown with Delay Gillespie, this does not affect the output distribution.
+The algorithm used is a modified version of the Gillespie algorithm [https://en.wikipedia.org/wiki/Gillespie_algorithm]. This is why if there is a reaction time in stack before a generated arrival time, that arrival time gets thrown out and time step is advanced to the next reaction time. 
 
